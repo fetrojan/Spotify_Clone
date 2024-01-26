@@ -1,5 +1,98 @@
 @media screen and (max-width: 1015px) {
-    .offer__list-item {
-        grid-template-columns: 1fr 1fr;
+    .header__search {
+      width: auto !important;
+      display: none;
     }
-}
+  }
+  
+  @media screen and (min-width: 1016px) and (max-width: 1140px) {
+    .header__search {
+      width: auto !important;
+      display: none;
+    }
+  }
+  
+  @media screen and (max-width: 768px) and (min-width: 320px){
+    
+    .header__navigation {
+      margin: 3% 0;
+      padding: 3%;
+      justify-content: flex-end;
+    }
+
+    .arrow-left, .arrow-right {
+      display: none;
+    }
+
+    .header__login .subscribe {
+      width: 2rem;
+      font-size: 0.5rem;
+      margin-right: 0.3rem;
+    }
+
+    .header__login .login {
+      width: 2rem;
+      font-size: 0.5rem;
+      height: 2rem;
+    }
+    
+    .main-container {
+      min-width: 50%;
+      margin-left: 20%
+    }
+
+    .sidebar {
+      width: 25%;
+    }
+
+    .library .library__content .fa-plus {
+      display: none;
+    }
+
+    .library .library__button .fa {
+      display: none;
+    }
+
+    .languages .languages__button {
+      width: auto;
+    }
+
+    .section-playlist {
+      padding: 5%;
+    }
+
+    .section-playlist__content .text {
+      width: auto;
+      text-align: center;
+      padding: 3%;
+    }
+
+    .section-playlist .section-playlist__content {
+      width: auto;
+      margin: 0;
+      padding: 1%;
+    }
+
+    .section-playlist__content .section-playlist__button {
+      width: auto;
+    }
+
+    .playlist {
+      display: none;
+    }
+  
+    .playlist-container {
+      width: 100%; /* Ocupa toda a largura disponível */
+      height: auto; /* Altura automática, ajusta conforme o conteúdo */
+    }
+  
+    .offer__list-item {
+      grid-template-columns: 1fr;
+      gap: 0.5rem
+    }
+  
+    .cards {
+      width: 8rem;
+      height: 8rem;
+    }
+  }
