@@ -77,7 +77,8 @@
   font-size: 1rem; 
   font-weight: 700;
   background-color: transparent;
-  margin-right: 2rem; 
+  margin-right: 2rem;
+  padding: 0.5rem; 
 }
 
 .header__login .login {
