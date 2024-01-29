@@ -14,6 +14,9 @@ function displayResults(result) {
   const artistName = document.getElementById("artist-name");
   const artistImage = document.getElementById("artist-img");
 
+  artistName.innerText = "";
+  artistImage.src = "";
+
   result.forEach((element) => {
     artistName.innerText = element.name;
     artistImage.src = element.urlImg;
@@ -25,8 +28,8 @@ function displayResults(result) {
 document.addEventListener("input", function () {
   const searchTerm = searchInput.value.toLowerCase();
   if (searchTerm === "") {
-    resultsPlaylist.classList.add("hidden");
-    resultsArtist.classList.remove("hidden");
+    resultsPlaylist.classList.remove("hidden");
+    resultsArtist.classList.add("hidden");
     return;
   }
 

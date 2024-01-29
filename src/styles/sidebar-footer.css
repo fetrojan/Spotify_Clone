@@ -159,6 +159,7 @@ body {
     border: 0;
     width: 113px;
     margin-top: 12px;
+    cursor: pointer;
 }
 
 .sidebar .cookies {
@@ -187,8 +188,13 @@ body {
     margin: 8px;
     padding: 8px;
     border-radius: 20px;
+    transition: 0.3s;
 }
 
+.languages .languages__button:hover{
+    color: green;
+    border: 1px solid green;
+}
 /*FOOTER*/
 
 .disclaimer-premium {
