@@ -9,17 +9,18 @@ Esse projeto foi criado dentro de uma [#ImersãoFront-End](https://www.alura.com
 - HTML
 
 - CSS<br>
-  *Flexbox<br>
-  *Posicionamento<br>
-  *Responsividade<br>
-  *Grid Layout<br>
-  *Media Queries<br>
+
+  - Flexbox<br>
+  - Posicionamento<br>
+  - Responsividade<br>
+  - Grid Layout<br>
+  - Media Queries<br>
 
 - JavaScript<br>
-  *Utilização do Node.js -JSON-server<br>
-  *Consumindo uma API fake p/ testes<br>
-  *Manipulação do DOM<br>
-  *Promises<br>
+  - Utilização do Node.js -JSON-server<br>
+  - Consumindo uma API fake p/ testes<br>
+  - Manipulação do DOM<br>
+  - Promises<br>
 
 ## Feito por:
 
